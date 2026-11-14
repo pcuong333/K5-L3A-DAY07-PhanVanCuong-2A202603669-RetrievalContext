@@ -1,4 +1,4 @@
-# Báo cáo Day 7 — 2A202603669 Phan Van Cuong
+# Báo cáo Day 7 — 2A202603669-Phan Van Cuong
 
 ## Dữ liệu và benchmark
 
