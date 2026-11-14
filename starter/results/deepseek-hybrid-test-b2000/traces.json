@@ -1,0 +1,502 @@
+[
+  {
+    "status": "answered",
+    "answer": "Human-centered computing emphasizes people rather than technologies in the design of computer solutions [openstax_cs-p42-paragraph-0].",
+    "citations": [
+      "openstax_cs-p42-paragraph-0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "human-centered computing nhấn mạnh điều gì khi thiết kế giải pháp",
+        "filter": {
+          "section": "Introduction to Computer Science"
+        },
+        "results": [
+          {
+            "id": "openstax_cs-p42-paragraph-0",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 42,
+            "text": "To address social problems and advance social good, recall that human-centered computing emphasizes people rather than technologies in the design of computer solutions. A human-centered approach to fair housing might begin by centering local communities directly affected by redlining. Rather than replacing or disrupting the people and organizations already working on a problem, a human-centered approach would center them in the design process as experts. A human-centered approach requires that the designer ask why they are not already working with people in the community impacted by their work. LINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast an",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Introduction to Computer Science",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p35-paragraph-0",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 35,
+            "text": "◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we’ve seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields. Today, computer science is a field that is just as much about people as it is about computer technology because each of these subfields is motivated by the real-world problems that people ultimat",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Introduction to Computer Science",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p43-paragraph-3",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 43,
+            "text": "t permanently house a computer’s data technological fix idea that technologies can solve social problems, but now often used to critique blind faith in technological solutions to human problems theoretical computer science mathematical processes behind software Turing-complete fundamental model for computing results and every computer has the ability to run any algorithm vacuum tube physical device that works like a light bulb used as memory in early digital computers Summary 1.1 Computer Science • Computer science is pervasive in our daily lives, business and industry, scientific research and development, and social change. • Computer science (CS) is the study of computing, which includes all phenomena related to computers, 1 • Chapter Review 33",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Introduction to Computer Science",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 3
+            },
+            "score": 0.030776515151515152,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p42-paragraph-0 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 42]\nTo address social problems and advance social good, recall that human-centered computing emphasizes people rather than technologies in the design of computer solutions. A human-centered approach to fair housing might begin by centering local communities directly affected by redlining. Rather than replacing or disrupting the people and organizations already working on a problem, a human-centered approach would center them in the design process as experts. A human-centered approach requires that the designer ask why they are not already working with people in the community impacted by their work. LINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast an\n\n[openstax_cs-p35-paragraph-0 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 35]\n◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we’ve seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields. Today, computer science is a field that is just as much about people as it is about computer technology because each of these subfields is motivated by the real-world problems that people ultimat",
+        "context_ids": [
+          "openstax_cs-p42-paragraph-0",
+          "openstax_cs-p35-paragraph-0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q16",
+    "elapsed_ms": 1723.5598000006576
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "mô hình thay thế tuần tự tối ưu hiệu quả thực thi thuật toán",
+        "filter": {
+          "section": "Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "openstax_cs-p53-paragraph-1",
+            "text": "focusing on important information\nwhile ignoring irrelevant details. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn addition to the four techniques, computational thinking involves essential steps such as testing and\ndebugging. Testing is crucial for uncovering errors within the step-by-step instructions or algorithms\nemployed to tackle a problem. On the other hand",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 53,
+            "metadata": {
+              "section": "Computational Thinking",
+              "chunk_index": 1,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p52-paragraph-0",
+            "text": "is called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems\nor phenomena. Computational thinking involves representing data through an abstraction, such as a\nsimulation, which uses models as surrogates for real systems.\n• Automation through algorithmic thinking: Using a program or computer application to perform repetitive\ntasks or calculations is considered automation.\n• Identification, analysis, and implemen",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 52,
+            "metadata": {
+              "section": "Computational Thinking",
+              "chunk_index": 0,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p61-paragraph-4",
+            "text": "urce utilization and maintaining system performance.\n2.1 • Computational Thinking 51",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 61,
+            "metadata": {
+              "section": "Computational Thinking",
+              "chunk_index": 4,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.015873015873015872,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p53-paragraph-1 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 53]\nfocusing on important information\nwhile ignoring irrelevant details. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn addition to the four techniques, computational thinking involves essential steps such as testing and\ndebugging. Testing is crucial for uncovering errors within the step-by-step instructions or algorithms\nemployed to tackle a problem. On the other hand\n\n[openstax_cs-p52-paragraph-0 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 52]\nis called decomposition. This approach helps analyze and solve problems more effectively.\n• Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the\nlogical organization and analysis of data. This includes the ability to structure information in a way that\nfacilitates effective problem-solving.\n• Representing data through abstractions: An abstraction is a simplified representation of complex systems\nor phenomena. Computational thinking involves representing data through an abstraction, such as a\nsimulation, which uses models as surrogates for real systems.\n• Automation through algorithmic thinking: Using a program or computer application to perform repetitive\ntasks or calculations is considered automation.\n• Identification, analysis, and implemen",
+        "context_ids": [
+          "openstax_cs-p53-paragraph-1",
+          "openstax_cs-p52-paragraph-0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "q17",
+    "elapsed_ms": 2077.457900000809
+  },
+  {
+    "status": "answered",
+    "answer": "Trong ví dụ làm sandwich mứt, decomposition và pattern recognition bổ sung cho nhau: decomposition chia bài toán phức tạp (làm sandwich mứt) thành các thành phần nhỏ hơn, xác định tất cả nguyên liệu cần thiết và các bước robot phải thực hiện [openstax_cs-p54-paragraph-0]. Pattern recognition sau đó nhóm các đặc điểm khác nhau được xem xét trong decomposition thành các nhóm/danh mục, cụ thể là nguyên liệu, thiết bị và hành động [openstax_cs-p54-paragraph-1]. Nhờ vậy, việc áp dụng cả hai cùng lúc giúp nghĩ ra càng nhiều thứ cần thiết càng tốt (nguyên liệu, thiết bị, hành động), và càng nhiều thứ được liệt kê thì hướng dẫn càng rõ ràng [openstax_cs-p54-paragraph-1].",
+    "citations": [
+      "openstax_cs-p54-paragraph-0",
+      "openstax_cs-p54-paragraph-1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "decomposition pattern recognition ví dụ làm sandwich mứt bổ sung cho nhau",
+        "filter": {
+          "section": "Computational Thinking"
+        },
+        "results": [
+          {
+            "id": "openstax_cs-p54-paragraph-1",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 54,
+            "text": "e various things identified via decomposition into categories, in this case, ingredients, equipment, and actions. Therefore, applying decomposition and pattern recognition will lead to thinking of as many things as possible that are required to make a jam sandwich. The more things that can be thought of (i.e., ingredients, equipment, and actions), the clearer the instructions will be. A first attempt at decomposition and pattern recognition is summarized in Table 2.1. Ingredients Equipment Actions Bread Plate Repeat x times Jam Knife Left hand (LH) Butter Right hand (RH) Pick up Unscrew Table 2.1 Logical Thinking and Pattern Recognition Example The jam sandwich pattern recognition defines the ingredients, equipment, and actions needed for completion. The process of identifying patterns typ",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Computational Thinking",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p54-paragraph-0",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 54,
+            "text": "you can contribute to the development and refinement of strategies that effectively improve road safety. Decomposition Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks. Decomposition enables the consideration of various components essential for solving a seemingly complex task, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example, decomposition involves identifying all the required ingredients and the steps the robot must take to successfully create a jam sandwich. Logical Thinking and Pattern Recognition Pattern recognition makes it possible to group all the different features considered in decomposition into categories. In the jam sandwich example, pattern recognition leads to grouping th",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Computational Thinking",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p53-paragraph-2",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 53,
+            "text": ", debugging entails identifying and rectifying issues within the code. A programmer is someone who writes instructions for a computer to follow. A typical example is that of a programmer who gives instructions to a robot and tells it to make a jam sandwich. In this case, applying computational techniques to give instructions to the robot entails the following techniques: decomposition, logical thinking and pattern recognition, abstraction, and algorithms. These techniques are explained in the following subsections as they apply to the jam sandwich example. TECHNOLOGY IN EVERYDAY LIFE Traffic Accident Data Analyzing data involves collecting and cleaning information, exploring patterns through visual and statistical methods, and forming hypotheses. Statistical analysis and visualization are",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Computational Thinking",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p54-paragraph-1 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 54]\ne various things identified via decomposition into categories, in this case, ingredients, equipment, and actions. Therefore, applying decomposition and pattern recognition will lead to thinking of as many things as possible that are required to make a jam sandwich. The more things that can be thought of (i.e., ingredients, equipment, and actions), the clearer the instructions will be. A first attempt at decomposition and pattern recognition is summarized in Table 2.1. Ingredients Equipment Actions Bread Plate Repeat x times Jam Knife Left hand (LH) Butter Right hand (RH) Pick up Unscrew Table 2.1 Logical Thinking and Pattern Recognition Example The jam sandwich pattern recognition defines the ingredients, equipment, and actions needed for completion. The process of identifying patterns typ\n\n[openstax_cs-p54-paragraph-0 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 54]\nyou can contribute to the development and refinement of strategies that effectively improve road safety. Decomposition Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks. Decomposition enables the consideration of various components essential for solving a seemingly complex task, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example, decomposition involves identifying all the required ingredients and the steps the robot must take to successfully create a jam sandwich. Logical Thinking and Pattern Recognition Pattern recognition makes it possible to group all the different features considered in decomposition into categories. In the jam sandwich example, pattern recognition leads to grouping th",
+        "context_ids": [
+          "openstax_cs-p54-paragraph-1",
+          "openstax_cs-p54-paragraph-0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q18",
+    "elapsed_ms": 2875.428000001193
+  },
+  {
+    "status": "answered",
+    "answer": "Information architecture quản lý data và information assets (dữ liệu và tài sản thông tin) [openstax_cs-p66-paragraph-0].",
+    "citations": [
+      "openstax_cs-p66-paragraph-0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Information architecture quản lý những tài sản nào",
+        "filter": {
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+        },
+        "results": [
+          {
+            "id": "openstax_cs-p66-paragraph-0",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 66,
+            "text": "Architecture Purpose Components Business architecture Defines the organization’s business strategy, goals, processes, and functions Business models, processes, capabilities, and organizational structure Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata Application architecture Designs and organizes software applications Application portfolio, application integration, and interface design Technology architecture Specifies the hardware, software, and technology infrastructure Servers, networks, databases, cloud services, security protocols Security architecture Ensures the protection of information assets, systems, and networks Security policies, access controls, and encryption mechanisms Integra",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p75-paragraph-2",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 75,
+            "text": "gies used for this process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Data Architecture Model A data architecture model is a conceptual framework that outlines how an organization structures, organizes, and manages its data assets. Data architecture forms a component of the broader enterprise solution architecture. It encompasses the design process for both information and actual data architecture models, representing the content within the data architecture. This framework aids organizations in strategically planning investments in data management solutions and associated systems. The evaluated, designed, and delivered data management solutions must seamlessly coexist with established ones, managing newly developed databases as well as legacy databa",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p79-paragraph-0",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 79,
+            "text": "Figure 2.22 This alternative physical trading application architecture outlines possible changes from the existing web solution. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Information Systems Architecture View Architecture views are representations of the overall system design that matter to different stakeholders. In addition to the application, data, and technology architecture models, IT architects create specific views to communicate and ensure that the system meets the needs of various stakeholders. An architecture is typically conveyed through one or more architecture models that collectively offer a clear description of the system’s structure. A singular, all-encompassing model is often too intricate to be easily grasped, displaying every intri",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p66-paragraph-0 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 66]\nArchitecture Purpose Components Business architecture Defines the organization’s business strategy, goals, processes, and functions Business models, processes, capabilities, and organizational structure Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata Application architecture Designs and organizes software applications Application portfolio, application integration, and interface design Technology architecture Specifies the hardware, software, and technology infrastructure Servers, networks, databases, cloud services, security protocols Security architecture Ensures the protection of information assets, systems, and networks Security policies, access controls, and encryption mechanisms Integra\n\n[openstax_cs-p75-paragraph-2 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 75]\ngies used for this process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Data Architecture Model A data architecture model is a conceptual framework that outlines how an organization structures, organizes, and manages its data assets. Data architecture forms a component of the broader enterprise solution architecture. It encompasses the design process for both information and actual data architecture models, representing the content within the data architecture. This framework aids organizations in strategically planning investments in data management solutions and associated systems. The evaluated, designed, and delivered data management solutions must seamlessly coexist with established ones, managing newly developed databases as well as legacy databa",
+        "context_ids": [
+          "openstax_cs-p66-paragraph-0",
+          "openstax_cs-p75-paragraph-2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q19",
+    "elapsed_ms": 1425.4933000011079
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "khi nào một kiến trúc phần mềm được xem là phù hợp tiêu chí đánh giá",
+        "filter": {
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+        },
+        "results": [
+          {
+            "id": "openstax_cs-p73-paragraph-4",
+            "text": "hitecture as well as the actual application architecture model, which\nrepresents the content of the application architecture. Application architecture helps organizations decide how\nto invest in new software and systems. It makes sure that any new software being looked at, designed, or put\ninto use can work well with the systems the organization already has. This includes brand-new software,\nupdates to old software, making old software better, and buying and updating software packages.\n4 Information systems architectures combine the use of application and data architecture details and specify control and data flow\nnecessary to operate the systems.\n2.2 • Architecting Solutions with Adaptive Design Reuse in Mind 63",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 73,
+            "metadata": {
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunk_index": 4,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p74-paragraph-1",
+            "text": "it further and describes what one of the\nalternative application architectures may look like at the logical level. The goal of the logical application\narchitecture is to identify the various functional blocks within the architecture without getting into the details\nof how they connect with and/or use each other.\nFigure 2.17 The logical trading application architecture illustrates each function block for the processing of customer orders.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n64 2 • Computational Thinking and Design Reusability\nAccess for free at openstax.org",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 74,
+            "metadata": {
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunk_index": 1,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p63-paragraph-0",
+            "text": "various types of components may be reused. When you ask Thoughtworks’ enterprise architecture expert\nMartin Fowler why a particular business solution architecture is sound in a given context, he will often reply\nthat it simply “smells good” to him.\nRather than looking at computational thinking and adaptive design reuse as a best practice set of techniques,\nit is best to consider them as process patterns that may be applied and adapted to help create a business\nsolution architecture model, which represents the content of the application architecture. Process patterns\nmay, in turn, leverage other process patterns that are more focused. When process patterns that are an\ninherent part of the process of creating a work product become rules of thumb, they are referred to as\nheuristics.\nINDUSTRY",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 63,
+            "metadata": {
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunk_index": 0,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.015873015873015872,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p73-paragraph-4 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 73]\nhitecture as well as the actual application architecture model, which\nrepresents the content of the application architecture. Application architecture helps organizations decide how\nto invest in new software and systems. It makes sure that any new software being looked at, designed, or put\ninto use can work well with the systems the organization already has. This includes brand-new software,\nupdates to old software, making old software better, and buying and updating software packages.\n4 Information systems architectures combine the use of application and data architecture details and specify control and data flow\nnecessary to operate the systems.\n2.2 • Architecting Solutions with Adaptive Design Reuse in Mind 63\n\n[openstax_cs-p74-paragraph-1 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 74]\nit further and describes what one of the\nalternative application architectures may look like at the logical level. The goal of the logical application\narchitecture is to identify the various functional blocks within the architecture without getting into the details\nof how they connect with and/or use each other.\nFigure 2.17 The logical trading application architecture illustrates each function block for the processing of customer orders.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n64 2 • Computational Thinking and Design Reusability\nAccess for free at openstax.org",
+        "context_ids": [
+          "openstax_cs-p73-paragraph-4",
+          "openstax_cs-p74-paragraph-1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "q20",
+    "elapsed_ms": 2062.457500000164
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "exam schedule course",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_cs-p61-paragraph-3",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 61,
+            "text": "els sunlight patterns, plant growth rates, and space requirements to design a garden layout that maximizes space and plant health. • Creating a schedule for a multistage music festival to minimize overlaps and ensure a smooth flow of audiences. How do you schedule the performances across different stages? • Solution: Implement a scheduling algorithm that considers audience preferences, artist availability, and stage logistics to create a timetable that maximizes attendee satisfaction and minimizes conflicts. • Determining the most efficient way to allocate computer resources in a cloud computing environment to handle varying user demands. How do you manage the computational load? • Solution: Use load balancing algorithms to distribute tasks across servers dynamically, ensuring optimal reso",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Computational Thinking",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 3
+            },
+            "score": 0.032018442622950824,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p71-paragraph-0",
+            "text": "have enough to meet demand, keep production running smoothly, and reduce waste, making the\nwhole process more efficient and sustainable.\n◦ 2.4. Testing planning: Writing detailed instructions for setting up and conducting usability tests,\nincluding how to select participants and record feedback, is important and includes:\n▪ 2.4.1. Testing guidelines: Rules that help ensure a product or service works well and is safe before\nit’s made available or used. These rules guide how to test the item, what tools to use, and what\nproblems to look for, aiming to fix any issues found. The main goal is to make sure the product\ndoes what it’s supposed to do and meets quality standards.\n▪ 2.4.2. Quality guidelines: These are rules that help ensure products or services are consistently\ngood and meet custome",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 71,
+            "metadata": {
+              "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+              "chunk_index": 0,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p41-paragraph-3",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 41,
+            "text": "ued nine companies in the Washington, D.C., area deliberately excluded people over the age of 50 from seeing their advertisements for housing because they wanted to attract younger people to live in their apartments.16 This is an example of an issue in technology that should be addressed by responsible computing with an emphasis on ethical behavior. With good intentions and attention to personal biases, technologies can be designed for social good. For example, a hypothetical algorithm for fair housing could evenly distribute new housing to people across protected classes and marginalized identities, such as older populations. Of course, algorithmic control and automated decision-making is challenged to consider the underlying conditions behind social problems. Still, algorithms can be imp",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Introduction to Computer Science",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 3
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p61-paragraph-3 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 61]\nels sunlight patterns, plant growth rates, and space requirements to design a garden layout that maximizes space and plant health. • Creating a schedule for a multistage music festival to minimize overlaps and ensure a smooth flow of audiences. How do you schedule the performances across different stages? • Solution: Implement a scheduling algorithm that considers audience preferences, artist availability, and stage logistics to create a timetable that maximizes attendee satisfaction and minimizes conflicts. • Determining the most efficient way to allocate computer resources in a cloud computing environment to handle varying user demands. How do you manage the computational load? • Solution: Use load balancing algorithms to distribute tasks across servers dynamically, ensuring optimal reso\n\n[openstax_cs-p71-paragraph-0 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 71]\nhave enough to meet demand, keep production running smoothly, and reduce waste, making the\nwhole process more efficient and sustainable.\n◦ 2.4. Testing planning: Writing detailed instructions for setting up and conducting usability tests,\nincluding how to select participants and record feedback, is important and includes:\n▪ 2.4.1. Testing guidelines: Rules that help ensure a product or service works well and is safe before\nit’s made available or used. These rules guide how to test the item, what tools to use, and what\nproblems to look for, aiming to fix any issues found. The main goal is to make sure the product\ndoes what it’s supposed to do and meets quality standards.\n▪ 2.4.2. Quality guidelines: These are rules that help ensure products or services are consistently\ngood and meet custome",
+        "context_ids": [
+          "openstax_cs-p61-paragraph-3",
+          "openstax_cs-p71-paragraph-0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "test-no-evidence-01",
+    "elapsed_ms": 1391.1296999995102
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "author telephone number",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_cs-p46-paragraph-3",
+            "text": "roblems in our\n36 1 • Chapter Review\nAccess for free at openstax.org",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+            "page": 46,
+            "metadata": {
+              "section": "Introduction to Computer Science",
+              "chunk_index": 3,
+              "text_extraction": "ok",
+              "chunking_strategy": "paragraph"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p54-paragraph-2",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 54,
+            "text": "ically requires logical thinking such as inductive or deductive reasoning. Inductive reasoning makes it possible to go from specific examples to general principles. For example, recognizing that dividing any number by 1 results in the original number leads to the broader conclusion that holds true for any number. Similarly, understanding that the sum of two odd numbers yields an even number leads to the generalization that adding two odd numbers always results in an even number. Inductive reasoning turns an observation into a pattern, which allows making a tentative hypothesis that can be turned into a theory. Deductive reasoning is the process of drawing valid conclusions from premises given the fact that it is not possible for the premises to be true and the conclusion to be false. A tra",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Computational Thinking",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid-rrf"
+          },
+          {
+            "id": "openstax_cs-p30-paragraph-3",
+            "source_id": "openstax_cs",
+            "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+            "page": 30,
+            "text": "essible for millions of people across the world, they have several shortcomings. Unless limits are removed, many popular spreadsheet software products such as Microsoft Excel may have a limitation to the number of rows of data they can store that is less than the data of modern computers. One such example occurred in October 2020 when Public Health England failed to report 15,841 positive cases of COVID-19 in the United Kingdom due to mismanaged row limits in the spreadsheet used. This shortcoming attests not only to the technical limit on the number of rows supported by spreadsheets, but also to the design limitations of software that fails to communicate data loss, irregularities, or errors to users. Errors in spreadsheet software data entry can often go unnoticed because spreadsheets do",
+            "metadata": {
+              "text_extraction": "ok",
+              "section": "Introduction to Computer Science",
+              "chunking_strategy": "paragraph",
+              "chunk_index": 3
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid-rrf"
+          }
+        ],
+        "context": "[openstax_cs-p46-paragraph-3 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 46]\nroblems in our\n36 1 • Chapter Review\nAccess for free at openstax.org\n\n[openstax_cs-p54-paragraph-2 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 54]\nically requires logical thinking such as inductive or deductive reasoning. Inductive reasoning makes it possible to go from specific examples to general principles. For example, recognizing that dividing any number by 1 results in the original number leads to the broader conclusion that holds true for any number. Similarly, understanding that the sum of two odd numbers yields an even number leads to the generalization that adding two odd numbers always results in an even number. Inductive reasoning turns an observation into a pattern, which allows making a tentative hypothesis that can be turned into a theory. Deductive reasoning is the process of drawing valid conclusions from premises given the fact that it is not possible for the premises to be true and the conclusion to be false. A tra",
+        "context_ids": [
+          "openstax_cs-p46-paragraph-3",
+          "openstax_cs-p54-paragraph-2"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "test-no-evidence-02",
+    "elapsed_ms": 1287.3748000001797
+  }
+]

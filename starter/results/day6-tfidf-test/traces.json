@@ -1,0 +1,330 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Human-centered computing nhan manh dieu gi khi thiet ke giai phap?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 42,
+        "evidence": "human-centered computing emphasizes people rather than technologies in the design of computer solutions."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_cs-p42-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 42,
+        "text": "To address social problems and advance social good, recall that human-centered computing emphasizes people rather than technologies in the design of computer solutions. A human-centered approach to fair housing might begin by centering local communities directly affected by redlining. Rather than replacing or disrupting the people and organizations already working on a problem, a human-centered approach would center them in the design process as experts. A human-centered approach requires that the designer ask why they are not already working with people in the community impacted by their work. LINK TO LEARNING Anatomy of an AI System (https://openstax.org/r/76AIanatomy) illustrates how an AI system like the Amazon Echo does not just involve computer technology, but also involves a vast an",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Introduction to Computer Science",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.32979806588283084,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p35-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 35,
+        "text": "◦ Security ◦ Databases ◦ Distributed computing ◦ Graphics • Applied computer science ◦ Scientific computing ◦ Human-computer interaction ◦ Software engineering In this hierarchy, theoretical computer science and computer systems are treated separately from applied computer science and human-computer interaction, suggesting that the mathematics of computing are pure and separate from social questions. Yet we’ve seen several examples that question this paradigm and instead point to a structure where human-computer interaction is infused throughout the study of computer science and all its subfields. Today, computer science is a field that is just as much about people as it is about computer technology because each of these subfields is motivated by the real-world problems that people ultimat",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Introduction to Computer Science",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.14140011231114535,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p44-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 44,
+        "text": "such as the Internet. With foundations in engineering and mathematics, computer science focuses on studying algorithms, which are instructions that enable computing. This includes computer hardware and software and the way these are used to process information. Three perspectives on computers include the hardware perspective, software perspective, and theoretical perspective. These perspectives each emphasize different aspects of computation, and they’re often centered in undergraduate computer science because of the history of computer science, but there are other perspectives on computer science. • People have used computer science to advance many more diverse goals beyond making war or making money. Computing was imagined as: a new medium for helping people learn everything; a new techn",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Introduction to Computer Science",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.10902288092580142,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.23719999990134966,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Neu muon toi uu hieu qua thuc thi algorithm, mo hinh nao co the duoc dung thay cho tuan tu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 57,
+        "evidence": "it is also possible to leverage parallelism/concurrency and recursion as alternative models to drive the execution of"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_cs-p56-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 56,
+        "text": "Figure 2.6 When using GenAI, a user interacts with the interface while the application processes the prompt with layers of abstraction on the back end. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Algorithm An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem. Algorithms make it possible to describe a solution to a problem by writing down the instructions that are required to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In the jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to make the jam sandwich. As you will learn in Chapter 3 Data Structures and Algorithms, algorithms are most commonly written",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.18175644902924948,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p57-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 57,
+        "text": "using programming keywords such as INPUT, OUTPUT, IF, THEN, ELSE, and START. The corresponding instructions can then be converted into a flowchart using the symbols in Figure 2.8. Figure 2.8 The symbols used in a flowchart are associated with their instructions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Algorithm Execution Model Patterns Various patterns of execution models may be used to step through the instructions provided in an algorithm. So far, we have only considered the traditional sequential (i.e., step-by-step) execution model for algorithm instructions. However, it is also possible to leverage parallelism/concurrency and recursion as alternative models to drive the execution of algorithms’ instructions. Parallel/concurrent execution model",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.1417595588805384,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p69-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 69,
+        "text": "s, reflecting the diverse nature of contemporary business workflows. User involvement in EBPs is concentrated at a specific point in time, streamlining the temporal aspect of these activities. The preservation of crucial business distinctions between processes ensures clarity and coherence. Finally, EBPs aim to leave the conceptual entity model in a consistent state, contributing to data integrity and maintaining a reliable representation of the organization’s entities and relationships where the entity model represents the various objects or concepts and their relationships within a system. A process map displays the order of chosen processes from the process hierarchies, highlighting their connection to the roles responsible for executing them. A business process hierarchy organizes a co",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.13412872509096685,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.2773000014713034,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Decomposition va pattern recognition bo sung cho nhau trong vi du lam sandwich mut nhu the nao?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 54,
+        "evidence": "Pattern recognition makes it possible to group all the different features considered in decomposition into categories."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_cs-p54-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "text": "you can contribute to the development and refinement of strategies that effectively improve road safety. Decomposition Decomposition involves solving a complex problem by breaking it up into smaller, more manageable tasks. Decomposition enables the consideration of various components essential for solving a seemingly complex task, allowing it to be redefined into a more manageable problem. In the case of the jam sandwich example, decomposition involves identifying all the required ingredients and the steps the robot must take to successfully create a jam sandwich. Logical Thinking and Pattern Recognition Pattern recognition makes it possible to group all the different features considered in decomposition into categories. In the jam sandwich example, pattern recognition leads to grouping th",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.4455174731595815,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p54-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "text": "e various things identified via decomposition into categories, in this case, ingredients, equipment, and actions. Therefore, applying decomposition and pattern recognition will lead to thinking of as many things as possible that are required to make a jam sandwich. The more things that can be thought of (i.e., ingredients, equipment, and actions), the clearer the instructions will be. A first attempt at decomposition and pattern recognition is summarized in Table 2.1. Ingredients Equipment Actions Bread Plate Repeat x times Jam Knife Left hand (LH) Butter Right hand (RH) Pick up Unscrew Table 2.1 Logical Thinking and Pattern Recognition Example The jam sandwich pattern recognition defines the ingredients, equipment, and actions needed for completion. The process of identifying patterns typ",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.32385720734235707,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-2",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": ", debugging entails identifying and rectifying issues within the code. A programmer is someone who writes instructions for a computer to follow. A typical example is that of a programmer who gives instructions to a robot and tells it to make a jam sandwich. In this case, applying computational techniques to give instructions to the robot entails the following techniques: decomposition, logical thinking and pattern recognition, abstraction, and algorithms. These techniques are explained in the following subsections as they apply to the jam sandwich example. TECHNOLOGY IN EVERYDAY LIFE Traffic Accident Data Analyzing data involves collecting and cleaning information, exploring patterns through visual and statistical methods, and forming hypotheses. Statistical analysis and visualization are",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.18026815126368873,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.3157999999530148,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Information architecture quan ly nhung tai san nao?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 66,
+        "evidence": "Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_cs-p66-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 66,
+        "text": "Architecture Purpose Components Business architecture Defines the organization’s business strategy, goals, processes, and functions Business models, processes, capabilities, and organizational structure Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata Application architecture Designs and organizes software applications Application portfolio, application integration, and interface design Technology architecture Specifies the hardware, software, and technology infrastructure Servers, networks, databases, cloud services, security protocols Security architecture Ensures the protection of information assets, systems, and networks Security policies, access controls, and encryption mechanisms Integra",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.41245403772541367,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p79-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 79,
+        "text": "Figure 2.22 This alternative physical trading application architecture outlines possible changes from the existing web solution. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Information Systems Architecture View Architecture views are representations of the overall system design that matter to different stakeholders. In addition to the application, data, and technology architecture models, IT architects create specific views to communicate and ensure that the system meets the needs of various stakeholders. An architecture is typically conveyed through one or more architecture models that collectively offer a clear description of the system’s structure. A singular, all-encompassing model is often too intricate to be easily grasped, displaying every intri",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.3118612060201016,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p75-paragraph-2",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 75,
+        "text": "gies used for this process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Data Architecture Model A data architecture model is a conceptual framework that outlines how an organization structures, organizes, and manages its data assets. Data architecture forms a component of the broader enterprise solution architecture. It encompasses the design process for both information and actual data architecture models, representing the content within the data architecture. This framework aids organizations in strategically planning investments in data management solutions and associated systems. The evaluated, designed, and delivered data management solutions must seamlessly coexist with established ones, managing newly developed databases as well as legacy databa",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.30042254410895364,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.18060000002151355,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Mot kien truc phan mem duoc xem la phu hop khi nao?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 65,
+        "evidence": "aligns well with the specific requirements and goals of your current project."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_cs-p41-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 41,
+        "text": "government agency is working with a biased dataset, political leaders may make decisions that result in certain citizens receiving inadequate funding or services. This is an example of why responsible computing, which we will cover in Chapter 14 Cyber Resources Qualities and Cyber Computing Governance, is so important. These problematic histories are not only aggravated in medicine and public health, but also reflected in housing. Redlining refers to the inequitable access to basic public services based on residents’ neighborhoods and communities, which includes the practice of withholding financial services from areas with a large underrepresented population. In the United States, these communities reflect the histories of racial segregation and racial wealth inequalities. Fair housing la",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Introduction to Computer Science",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.1179113603834831,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.13029999900027178,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

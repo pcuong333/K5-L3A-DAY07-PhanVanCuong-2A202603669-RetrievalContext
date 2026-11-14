@@ -1,0 +1,318 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Computational thinking la gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 51,
+        "evidence": "the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms."
+      }
+    ],
+    "expected_answer": "La cac qua trinh tu duy de hinh thanh bai toan sao cho loi giai co the bieu dien thanh cac buoc tinh toan va thuat toan."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Decomposition trong computational thinking la gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 53,
+        "evidence": "Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems."
+      }
+    ],
+    "expected_answer": "La viec chia mot bai toan hoac he thong phuc tap thanh cac phan nho, de quan ly hon."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Pattern recognition ho tro giai quyet van de nhu the nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 53,
+        "evidence": "identifying similarities among and within problems"
+      }
+    ],
+    "expected_answer": "Noi giup nhan ra cac cau truc, moi quan he hoac chuoi lap lai trong cac tinh huong giai quyet van de."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Abstraction tap trung vao dieu gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 53,
+        "evidence": "Abstraction is a computational thinking technique that centers on"
+      }
+    ],
+    "expected_answer": "Tap trung vao thong tin quan trong va bo qua chi tiet khong lien quan."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Computational thinking co the duoc ap dung cho quan ly ngan sach hang thang nhu the nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 55,
+        "evidence": "Decomposition: Break down the financial challenge into different categories such as rent, groceries, utilities, and entertainment."
+      }
+    ],
+    "expected_answer": "Chia chi phi thanh cac nhom, phan tich chi tieu qua khu, tap trung vao khoan co the giam va lap quy trinh ra quyet dinh."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Algorithm duoc dinh nghia nhu the nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 56,
+        "evidence": "An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem."
+      }
+    ],
+    "expected_answer": "La mot chuoi cac buoc hoac chi dan phai duoc thuc hien theo thu tu cu the de giai quyet mot van de."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Hai cach pho bien de mo ta logic cua algorithm la gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 56,
+        "evidence": "as either pseudocode or a flowchart."
+      }
+    ],
+    "expected_answer": "Pseudocode va flowchart."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Tai sao mot ham de quy can co base case?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 59,
+        "evidence": "if you had not specified the base case, the recursive process would never end."
+      }
+    ],
+    "expected_answer": "Neu khong co base case thi qua trinh de quy se khong bao gio ket thuc."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Mo hinh thuc thi tuan tu cua algorithm co dac diem gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 57,
+        "evidence": "the traditional sequential (i.e., step-by-step) execution model for algorithm instructions."
+      }
+    ],
+    "expected_answer": "Cac chi dan duoc thuc hien tung buoc theo thu tu."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Trong DNA sequencing, decomposition duoc dung de lam gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 61,
+        "evidence": "It starts by breaking the large DNA sequence into smaller pieces."
+      }
+    ],
+    "expected_answer": "Chia chuoi DNA lon va phuc tap thanh cac phan nho hon de xu ly."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Khi nao adaptive design reuse phu hop hon viec tao moi moi thanh phan tu dau?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 62,
+        "evidence": "adaptive design reuse adopts a top-down methodology, emphasizing the creation and assembly of business solutions by combining existing design components."
+      }
+    ],
+    "expected_answer": "Khi co the ket hop cac thanh phan thiet ke da ton tai va chi can dieu chinh toi thieu cho giai phap moi.",
+    "filter": {
+      "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Design component la gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 62,
+        "evidence": "A design component is a reusable element within a larger system that serves a specific purpose."
+      }
+    ],
+    "expected_answer": "La mot phan tu co the tai su dung trong mot he thong lon hon va phuc vu mot muc dich cu the.",
+    "filter": {
+      "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Heuristic trong boi canh process pattern la gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 63,
+        "evidence": "When process patterns that are an inherent part of the process of creating a work product become rules of thumb, they are referred to as heuristics."
+      }
+    ],
+    "expected_answer": "La mot quy tac kinh nghiem duoc hinh thanh khi process pattern tro thanh quy tac huong dan.",
+    "filter": {
+      "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Layering trong business solution architecture mang lai loi ich gi?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 64,
+        "evidence": "This heuristic enables the separation of concerns between layers and improves modularity."
+      }
+    ],
+    "expected_answer": "No tach cac concern, cai thien tinh module va giup kien truc de quan ly, de hieu hon."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Business architecture va information architecture khac nhau ve muc dich nhu the nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 66,
+        "evidence": "Information architecture Manages data and information assets"
+      }
+    ],
+    "expected_answer": "Business architecture dinh nghia chien luoc, muc tieu, quy trinh va chuc nang cua to chuc; information architecture quan ly tai san du lieu va thong tin."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Human-centered computing nhan manh dieu gi khi thiet ke giai phap?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 42,
+        "evidence": "human-centered computing emphasizes people rather than technologies in the design of computer solutions."
+      }
+    ],
+    "expected_answer": "Nhan manh con nguoi thay vi cong nghe trong qua trinh thiet ke giai phap may tinh.",
+    "filter": {
+      "section": "Introduction to Computer Science"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Neu muon toi uu hieu qua thuc thi algorithm, mo hinh nao co the duoc dung thay cho tuan tu?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 57,
+        "evidence": "it is also possible to leverage parallelism/concurrency and recursion as alternative models to drive the execution of"
+      }
+    ],
+    "expected_answer": "Mo hinh thuc thi song song/dong thoi hoac de quy.",
+    "filter": {
+      "section": "Computational Thinking"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Decomposition va pattern recognition bo sung cho nhau trong vi du lam sandwich mut nhu the nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 54,
+        "evidence": "Pattern recognition makes it possible to group all the different features considered in decomposition into categories."
+      }
+    ],
+    "expected_answer": "Decomposition tach cong viec thanh cac thanh phan nho; pattern recognition gom cac thanh phan co dac diem giong nhau vao nhom.",
+    "filter": {
+      "section": "Computational Thinking"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Information architecture quan ly nhung tai san nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 66,
+        "evidence": "Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata"
+      }
+    ],
+    "expected_answer": "Quan ly data models, information flow diagrams, data governance, data standards va metadata.",
+    "filter": {
+      "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Mot kien truc phan mem duoc xem la phu hop khi nao?",
+    "gold": [
+      {
+        "source_id": "openstax_cs",
+        "page": 65,
+        "evidence": "aligns well with the specific requirements and goals of your current project."
+      }
+    ],
+    "expected_answer": "Khi no phu hop voi cac yeu cau va muc tieu cu the cua du an hien tai; khong co kien truc nao tuyet doi hoan hao.",
+    "filter": {
+      "section": "Architecting Solutions with Adaptive Design Reuse in Mind"
+    }
+  },
+  {
+    "id": "dev-no-evidence-01",
+    "split": "dev",
+    "question": "What is the tuition fee for this course?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The selected corpus does not provide tuition fee information."
+  },
+  {
+    "id": "dev-no-evidence-02",
+    "split": "dev",
+    "question": "Who is the current president of the university?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The selected corpus does not identify a university president."
+  },
+  {
+    "id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What is the exact exam schedule for this course?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The selected corpus does not contain an exam schedule."
+  },
+  {
+    "id": "test-no-evidence-02",
+    "split": "test",
+    "question": "What is the author telephone number?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The selected corpus does not provide a telephone number."
+  }
+]

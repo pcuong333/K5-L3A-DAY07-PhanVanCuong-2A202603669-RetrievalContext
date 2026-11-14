@@ -1,0 +1,940 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Computational thinking la gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p51-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 51,
+        "text": "76CompThinking) from the BBC. Vision To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department describes computational thinking as “the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia University, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at Carnegie Mellon University. She believes that computational thinking details the mental acts needed to compute a solution to a problem either by human actions or machine. Computational thinking encompasses a collection of methods and approaches for resolving (and acquiring the skills to resolve) complex challenges, closely aligned with mathematic",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations. • Abstraction is a computational thinking technique that centers on",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p50-paragraph-4",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 50,
+        "text": "s. These solutions, once developed, can be communicated in a manner that is comprehensible to both computers and humans, adopting effective problem-solving. LINK TO LEARNING Computational thinking serves as the intermediary that helps us read complex problems, formulate solutions, and then express those solutions in a manner that computers, humans, or a collaboration of both can implement. Read this article for a good introduction to computational thinking (https://openstax.org/r/ 40 2 • Computational Thinking and Design Reusability Access for free at openstax.org",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 4
+        },
+        "score": 0.028991596638655463,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_cs-p50-paragraph-4 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 50]\ns. These solutions, once developed, can be communicated in a manner that is comprehensible to both computers and humans, adopting effective problem-solving. LINK TO LEARNING Computational thinking serves as the intermediary that helps us read complex problems, formulate solutions, and then express those solutions in a manner that computers, humans, or a collaboration of both can implement. Read this article for a good introduction to computational thinking (https://openstax.org/r/ 40 2 • Computational Thinking and Design Reusability Access for free at openstax.org",
+    "context_ids": [
+      "openstax_cs-p50-paragraph-4"
+    ],
+    "elapsed_ms": 101.82970000005298,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Decomposition trong computational thinking la gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p53-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations. • Abstraction is a computational thinking technique that centers on",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p51-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 51,
+        "text": "76CompThinking) from the BBC. Vision To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department describes computational thinking as “the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia University, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at Carnegie Mellon University. She believes that computational thinking details the mental acts needed to compute a solution to a problem either by human actions or machine. Computational thinking encompasses a collection of methods and approaches for resolving (and acquiring the skills to resolve) complex challenges, closely aligned with mathematic",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p52-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 52,
+        "text": "is called decomposition. This approach helps analyze and solve problems more effectively. • Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the logical organization and analysis of data. This includes the ability to structure information in a way that facilitates effective problem-solving. • Representing data through abstractions: An abstraction is a simplified representation of complex systems or phenomena. Computational thinking involves representing data through an abstraction, such as a simulation, which uses models as surrogates for real systems. • Automation through algorithmic thinking: Using a program or computer application to perform repetitive tasks or calculations is considered automation. • Identification, analysis, and implemen",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.030621785881252923,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 52.94080000021495,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Pattern recognition ho tro giai quyet van de nhu the nao?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p54-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "text": "e various things identified via decomposition into categories, in this case, ingredients, equipment, and actions. Therefore, applying decomposition and pattern recognition will lead to thinking of as many things as possible that are required to make a jam sandwich. The more things that can be thought of (i.e., ingredients, equipment, and actions), the clearer the instructions will be. A first attempt at decomposition and pattern recognition is summarized in Table 2.1. Ingredients Equipment Actions Bread Plate Repeat x times Jam Knife Left hand (LH) Butter Right hand (RH) Pick up Unscrew Table 2.1 Logical Thinking and Pattern Recognition Example The jam sandwich pattern recognition defines the ingredients, equipment, and actions needed for completion. The process of identifying patterns typ",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p38-paragraph-4",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 38,
+        "text": "objects in images not by relying on some intrinsic idea or concept of objects but by memorizing every single configuration of edges as they appear in the sample images. This limitation can lead to peculiar outcomes for image recognition systems. Often, neural network approaches for image recognition have certain examples of images where objects are misidentified in unusual ways: a person’s face might be recognized in a piece of toast or in a bunch of clouds in the sky. In these examples, the pattern of edges might coincidentally trigger the neural network values so that it misidentifies objects. These are among the more human-understandable examples; there are many other odd situations that are less explainable. An adversarial attack is a sample input (e.g., an image) that is designed to c",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Introduction to Computer Science",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 4
+        },
+        "score": 0.031746031746031744,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p52-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 52,
+        "text": "is called decomposition. This approach helps analyze and solve problems more effectively. • Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the logical organization and analysis of data. This includes the ability to structure information in a way that facilitates effective problem-solving. • Representing data through abstractions: An abstraction is a simplified representation of complex systems or phenomena. Computational thinking involves representing data through an abstraction, such as a simulation, which uses models as surrogates for real systems. • Automation through algorithmic thinking: Using a program or computer application to perform repetitive tasks or calculations is considered automation. • Identification, analysis, and implemen",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.031544957774465976,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 29.339300000174262,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Abstraction tap trung vao dieu gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p73-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 73,
+        "text": "levels of abstraction, including presentation, conceptual, logical, and physical. Layering and componentization heuristics play an important role in structuring these models. The abstraction level indicates the extent to which a design is distanced from tangible technological details. This level of abstraction can differ across various architectural fields, but four main levels are widely recognized: 1. Presentation: At this level, architecture is simplified into a form to streamline the communication of essential ideas, particularly to business executives. Distilling complex architectural diagrams into more straightforward, high-level visuals ensures that the core messages are conveyed effectively. 2. Conceptual: This level offers a more structured view of architecture, deliberately omitt",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p52-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 52,
+        "text": "is called decomposition. This approach helps analyze and solve problems more effectively. • Pattern recognition (logically organizing and analyzing data): Computational thinking emphasizes the logical organization and analysis of data. This includes the ability to structure information in a way that facilitates effective problem-solving. • Representing data through abstractions: An abstraction is a simplified representation of complex systems or phenomena. Computational thinking involves representing data through an abstraction, such as a simulation, which uses models as surrogates for real systems. • Automation through algorithmic thinking: Using a program or computer application to perform repetitive tasks or calculations is considered automation. • Identification, analysis, and implemen",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p64-paragraph-2",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 64,
+        "text": "rocessing mechanisms. In a layered architecture, information and commands flow through each layer, enhancing the design’s abstraction level, which denotes the granularity or detail at which a system is represented. Despite its structured approach and abstraction benefits, software designed in this layered manner might lean toward a monolithic build, potentially making modifications challenging. Layered architecture can lead to tightly connected layers in software, making it difficult to change one part without affecting others. This tight connection can also make it harder to update or expand the software. A monolithic structure is a type of system or application where all the parts are closely combined into one single unit. This setup means that everything from the user interface to data",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.031024531024531024,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 48.069999999825086,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Computational thinking co the duoc ap dung cho quan ly ngan sach hang thang nhu the nao?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p51-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 51,
+        "text": "76CompThinking) from the BBC. Vision To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department describes computational thinking as “the thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.” Jeannette Wing, also of Columbia University, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at Carnegie Mellon University. She believes that computational thinking details the mental acts needed to compute a solution to a problem either by human actions or machine. Computational thinking encompasses a collection of methods and approaches for resolving (and acquiring the skills to resolve) complex challenges, closely aligned with mathematic",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p50-paragraph-2",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 50,
+        "text": "ntists approach problems and create well-designed solution building blocks at both the business and technical levels. Computational thinking often involves a bottom-up approach, focusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data structures and algorithms. Additionally, it may make use of existing design building blocks like design patterns and abstract data types to expedite the development of optimal combinations of data structures and algorithms. What Is Computational Thinking? The problem-solving and cognitive process, known as computational thinking, is rooted in principles derived from computer science. It involves breaking down complex problems into smaller, more manageable parts and devising systematic approaches to solve them. Co",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.031544957774465976,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations. • Abstraction is a computational thinking technique that centers on",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03125,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 28.629999999793654,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Algorithm duoc dinh nghia nhu the nao?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p56-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 56,
+        "text": "Figure 2.6 When using GenAI, a user interacts with the interface while the application processes the prompt with layers of abstraction on the back end. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Algorithm An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem. Algorithms make it possible to describe a solution to a problem by writing down the instructions that are required to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In the jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to make the jam sandwich. As you will learn in Chapter 3 Data Structures and Algorithms, algorithms are most commonly written",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-1",
+        "text": "focusing on important information\nwhile ignoring irrelevant details. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn addition to the four techniques, computational thinking involves essential steps such as testing and\ndebugging. Testing is crucial for uncovering errors within the step-by-step instructions or algorithms\nemployed to tackle a problem. On the other hand",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "metadata": {
+          "section": "Computational Thinking",
+          "chunk_index": 1,
+          "text_extraction": "ok",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p57-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 57,
+        "text": "using programming keywords such as INPUT, OUTPUT, IF, THEN, ELSE, and START. The corresponding instructions can then be converted into a flowchart using the symbols in Figure 2.8. Figure 2.8 The symbols used in a flowchart are associated with their instructions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Algorithm Execution Model Patterns Various patterns of execution models may be used to step through the instructions provided in an algorithm. So far, we have only considered the traditional sequential (i.e., step-by-step) execution model for algorithm instructions. However, it is also possible to leverage parallelism/concurrency and recursion as alternative models to drive the execution of algorithms’ instructions. Parallel/concurrent execution model",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 26.639099999556493,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Hai cach pho bien de mo ta logic cua algorithm la gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p56-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 56,
+        "text": "as either pseudocode or a flowchart. An outline of the logic of algorithms using a combination of language and high-level programming concepts is called pseudocode. Each step is shown in a clearly ordered, written structure. A flowchart clearly shows the flow and direction of decisions in a visual way using a diagram. Either way is fine, and it is a matter of personal preference. Basic templates for the flowchart and pseudocode are in Figure 2.7. Figure 2.7 Pseudocode lists each step, while a flowchart visually outlines the process of decision-making. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Writing algorithms requires practice. Not everyone likes butter in their jam sandwich. The robot needs a method of making sure it adds or does not add butter, d",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.030621785881252923,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-1",
+        "text": "focusing on important information\nwhile ignoring irrelevant details. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn addition to the four techniques, computational thinking involves essential steps such as testing and\ndebugging. Testing is crucial for uncovering errors within the step-by-step instructions or algorithms\nemployed to tackle a problem. On the other hand",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "metadata": {
+          "section": "Computational Thinking",
+          "chunk_index": 1,
+          "text_extraction": "ok",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p64-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 64,
+        "text": "iness solution architectures are organized into three main layers: the presentation, business logic, and data management layers. The presentation layer is the user’s touchpoint, handling the user interface (UI) and delivering the user experience (UX), which is the overall experience that a person has when interacting with a product, service, or system. The business logic layer holds the business logic for the business solution or application, separating the UI/UX from the business-centric computations. This separation affords the flexibility to adjust business operations as needs evolve without disrupting other system components. Although not tied to a specific domain, the data management layer is responsible for interacting with persistent storage systems like databases and various data p",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 36.15929999978107,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Tai sao mot ham de quy can co base case?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p58-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 58,
+        "text": "an input and may return an output. The base case represents the function’s most straightforward operation for a given input. To effectively implement recursion, two primary steps must be followed: (a) identify the base case, and (b) outline the recursive steps. In the context of a recursive function, when n is 0, the cumulative sum from 0 to 0 is intuitively 0, representing the most fundamental subproblem of the main issue. Armed with this base case, you can commence crafting the initial part of the function. int recursiveSum (int x) { // Base case if (x == 0) return 0; } Recursion operates through a process of simplification, progressively reducing the value of x until it meets the base condition, where x equals 0. This technique presents an alternative method, offering a refined and effe",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p54-paragraph-3",
+        "text": "ditional example\nillustrates how the premises “all men are mortal” and “Socrates is a man” lead to the deductively correct\nconclusion that “Socrates is mortal.”\n44 2 • Computational Thinking and Design Reusability\nAccess for free at openstax.org",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "metadata": {
+          "section": "Computational Thinking",
+          "chunk_index": 3,
+          "text_extraction": "ok",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p54-paragraph-2",
+        "text": "ically requires logical thinking such as inductive or deductive reasoning.\nInductive reasoning makes it possible to go from specific examples to general principles. For example,\nrecognizing that dividing any number by 1 results in the original number leads to the broader conclusion that\nholds true for any number. Similarly, understanding that the sum of two odd numbers yields an even number\nleads to the generalization that adding two odd numbers always results in an even number. Inductive\nreasoning turns an observation into a pattern, which allows making a tentative hypothesis that can be turned\ninto a theory. Deductive reasoning is the process of drawing valid conclusions from premises given the fact\nthat it is not possible for the premises to be true and the conclusion to be false. A tra",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "metadata": {
+          "section": "Computational Thinking",
+          "chunk_index": 2,
+          "text_extraction": "ok",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_cs-p54-paragraph-3 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf | page 54]\nditional example\nillustrates how the premises “all men are mortal” and “Socrates is a man” lead to the deductively correct\nconclusion that “Socrates is mortal.”\n44 2 • Computational Thinking and Design Reusability\nAccess for free at openstax.org",
+    "context_ids": [
+      "openstax_cs-p54-paragraph-3"
+    ],
+    "elapsed_ms": 48.24370000005729,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Mo hinh thuc thi tuan tu cua algorithm co dac diem gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p56-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 56,
+        "text": "Figure 2.6 When using GenAI, a user interacts with the interface while the application processes the prompt with layers of abstraction on the back end. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Algorithm An algorithm is a sequence of steps/instructions that must be followed in a specific order to solve a problem. Algorithms make it possible to describe a solution to a problem by writing down the instructions that are required to solve the problem. Computer programs typically execute algorithms to perform certain tasks. In the jam sandwich example, the algorithm technique is about writing instructions that the robot can follow to make the jam sandwich. As you will learn in Chapter 3 Data Structures and Algorithms, algorithms are most commonly written",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-1",
+        "text": "focusing on important information\nwhile ignoring irrelevant details. This technique enables a clearer understanding of the core issues.\n• Algorithms are like detailed sets of instructions for solving a problem step-by-step. They help break down\ncomplex tasks into manageable actions, ensuring a clear path to problem-solving.\nFigure 2.4 Users can explore the essence of computational thinking through decomposition, logical thinking, abstraction, and\nalgorithms. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn addition to the four techniques, computational thinking involves essential steps such as testing and\ndebugging. Testing is crucial for uncovering errors within the step-by-step instructions or algorithms\nemployed to tackle a problem. On the other hand",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY06-PhanVanCuong-2A202603669-DataIngestion\\starter\\data\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "metadata": {
+          "section": "Computational Thinking",
+          "chunk_index": 1,
+          "text_extraction": "ok",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p57-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 57,
+        "text": "using programming keywords such as INPUT, OUTPUT, IF, THEN, ELSE, and START. The corresponding instructions can then be converted into a flowchart using the symbols in Figure 2.8. Figure 2.8 The symbols used in a flowchart are associated with their instructions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Algorithm Execution Model Patterns Various patterns of execution models may be used to step through the instructions provided in an algorithm. So far, we have only considered the traditional sequential (i.e., step-by-step) execution model for algorithm instructions. However, it is also possible to leverage parallelism/concurrency and recursion as alternative models to drive the execution of algorithms’ instructions. Parallel/concurrent execution model",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 46.7953999996098,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Trong DNA sequencing, decomposition duoc dung de lam gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p61-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 61,
+        "text": "thinking (CT) can be identified and highlighted in the process of DNA sequencing, a complex task within the field of genomics: • Decomposition: Break down the DNA sequencing process into specific steps such as sample collection and DNA extraction. • Pattern recognition: Identify similarities in DNA sequences that could indicate genetic traits or anomalies. • Abstraction: Focus on the essential parts of the genetic information that are relevant for the study at hand. • Algorithms: Create step-by-step protocols for each part of the sequencing process. • Logical thinking: Determine the most accurate methods for sequencing based on the type of sample and the required depth of sequence analysis. • Evaluation: Assess the quality and accuracy of the sequencing data obtained. • Debugging: Identify",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p61-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 61,
+        "text": "INDUSTRY SPOTLIGHT DNA Sequencing Computational thinking is important in every industry today. In DNA sequencing, computational thinking helps manage the massive and complex data involved. It starts by breaking the large DNA sequence into smaller pieces. Then, it involves identifying patterns or sequences within these pieces, which might indicate genetic information like the presence of certain genes. The focus is on the most relevant parts of the sequence, discarding unnecessary data to concentrate on potentially significant genetic regions. Finally, refined algorithms process and reconstruct the original sequence to identify genetic variations. This approach is used for efficiently handling massive datasets in DNA sequencing and extracting meaningful insights. The parts of computational",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p33-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 33,
+        "text": "m waves that carry information about physical effects, in the chemical equations that specify information about chemical reactions, in the information flows that drive the evolution of economies and political organizations, and in the information processes underlying social, management, and communication sciences.13 CONCEPTS IN PRACTICE Computer Science and DNA Research into DNA sequencing and indexing is opening new ways of helping medical providers offer personalized treatments for patients. Large-scale genome sequencing of not only the human genome, but also the DNA signatures for viruses has made it possible for medical providers to take human fluid samples and analyze them for the presence of infectious diseases. This research requires computer science concepts, including specialized",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Introduction to Computer Science",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 30.510300000059942,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Khi nao adaptive design reuse phu hop hon viec tao moi moi thanh phan tu dau?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p71-paragraph-5",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 71,
+        "text": "ing Solutions with Adaptive Design Reuse in Mind 61",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 5
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p62-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 62,
+        "text": "2.2 Architecting Solutions with Adaptive Design Reuse in Mind Learning Objectives By the end of this section, you will be able to: • Describe how business solutions design heuristics and how patterns are used • Discuss the role of enterprise architecture (EA) and related architecture domains • Differentiate between enterprise and solution architecture While computational thinking commonly employs a bottom-up strategy for crafting well-structured components, adaptive design reuse adopts a top-down methodology, emphasizing the creation and assembly of business solutions by combining existing design components. A design component is a reusable element within a larger system that serves a specific purpose. These components, akin to low-level solution building blocks, necessitate minimal modifi",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p62-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 62,
+        "text": "cations. This approach, often termed computing in the large, diverges from individual algorithmic instructions. Instead of composing instructions for the execution of specific actions through computational thinking’s decomposition, adaptive design reuse identifies fitting components based on the articulated requirements of the business solution’s potential users, commonly referred to as stakeholders. The method(s) used to identify these needs will be discussed in detail in Chapter 9 Software Engineering. While adaptive design reuse typically considers algorithmic designs as building blocks, it uses similar techniques (i.e., decomposition, logical thinking and pattern recognition, abstraction/generalization, componentization, testing, and debugging) to identify and reuse building blocks. Th",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_cs-p71-paragraph-5 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 71]\ning Solutions with Adaptive Design Reuse in Mind 61",
+    "context_ids": [
+      "openstax_cs-p71-paragraph-5"
+    ],
+    "elapsed_ms": 45.09129999951256,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Design component la gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p62-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 62,
+        "text": "2.2 Architecting Solutions with Adaptive Design Reuse in Mind Learning Objectives By the end of this section, you will be able to: • Describe how business solutions design heuristics and how patterns are used • Discuss the role of enterprise architecture (EA) and related architecture domains • Differentiate between enterprise and solution architecture While computational thinking commonly employs a bottom-up strategy for crafting well-structured components, adaptive design reuse adopts a top-down methodology, emphasizing the creation and assembly of business solutions by combining existing design components. A design component is a reusable element within a larger system that serves a specific purpose. These components, akin to low-level solution building blocks, necessitate minimal modifi",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p63-paragraph-4",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 63,
+        "text": ". These heuristics are known as layering and componentization and can be thought of as design approaches followed with an intent of architectural concerns. 2.2 • Architecting Solutions with Adaptive Design Reuse in Mind 53",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 4
+        },
+        "score": 0.03131881575727918,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p62-paragraph-2",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 62,
+        "text": "e structural designs that stem from the top-down adaptive design reuse approach to business solution design are referred to as business solutions architecture models. A business solution architecture is a structural design that is meant to address the needs of prospective solution users. When a structural design meets these needs, it is considered “architecturally sound” for the problem at hand. Furthermore, to accelerate the putting together of complete solutions, the adaptive design reuse approach relies on architectural models or component assemblies that were developed from previous designs. When the granularity of these architectural models is at the level of subsystems, they are referred to as system family architectures or architectural patterns. An architectural pattern is a reusab",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.030834914611005692,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_cs-p63-paragraph-4 | C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf | page 63]\n. These heuristics are known as layering and componentization and can be thought of as design approaches followed with an intent of architectural concerns. 2.2 • Architecting Solutions with Adaptive Design Reuse in Mind 53",
+    "context_ids": [
+      "openstax_cs-p63-paragraph-4"
+    ],
+    "elapsed_ms": 24.964700000055018,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Heuristic trong boi canh process pattern la gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p54-paragraph-1",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 54,
+        "text": "e various things identified via decomposition into categories, in this case, ingredients, equipment, and actions. Therefore, applying decomposition and pattern recognition will lead to thinking of as many things as possible that are required to make a jam sandwich. The more things that can be thought of (i.e., ingredients, equipment, and actions), the clearer the instructions will be. A first attempt at decomposition and pattern recognition is summarized in Table 2.1. Ingredients Equipment Actions Bread Plate Repeat x times Jam Knife Left hand (LH) Butter Right hand (RH) Pick up Unscrew Table 2.1 Logical Thinking and Pattern Recognition Example The jam sandwich pattern recognition defines the ingredients, equipment, and actions needed for completion. The process of identifying patterns typ",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p71-paragraph-4",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 71,
+        "text": "rocesses from the process hierarchies, focusing on their connection to the roles responsible for executing them. The process maps specifically highlight key processes that hold particular business importance. Although every process featured in a process map is also included in the business process hierarchy, not all processes in the hierarchy are depicted in the process maps. Process flow diagrams can depict various elements, such as the business events triggering a process, outcomes of completing a process, the processes themselves, the sequence of process steps, interruptions in the process flow, possibilities for repetition, choices, exclusivity among processes, and any additional notes. Figure 2.14 illustrates a process map diagram for an order to cash business process. 2.2 • Architect",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 4
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p53-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 53,
+        "text": "techniques (cornerstones) to computational thinking, as illustrated in Figure 2.4: • Decomposition is a fundamental concept in computational thinking, representing the process of systematically breaking down a complex problem or system into smaller, more manageable parts or subproblems. By breaking down complexity into simpler elements, decomposition promotes a more organized approach to problem-solving. • Logical thinking and pattern recognition is a computational thinking technique that involves the process of identifying similarities among and within problems. This computational thinking technique emphasizes the ability to recognize recurring structures, relationships, or sequences in various problem-solving situations. • Abstraction is a computational thinking technique that centers on",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Computational Thinking",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.02919863597612958,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 35.9320999996271,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Layering trong business solution architecture mang lai loi ich gi?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p64-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 64,
+        "text": "Componentization has already been introduced as a computational thinking and adaptive design reuse technique.1 Layering in business solution architecture involves creating distinct layers that abstract specific aspects of the overall architecture. This heuristic enables the separation of concerns between layers and improves modularity. Each layer comprises components, and a layer may consist of multiple components. This hierarchical structure helps organize and separate different functionalities or responsibilities within the architecture, making it easier to manage and understand. The layering strategy is based on the concept of separating different concerns. This method structures software design into distinct, stacked layers, with each layer tasked with specific functions. Commonly, bus",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p62-paragraph-3",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 62,
+        "text": "le solution to a recurring problem in software architecture design. Chapter 10 Enterprise and Solution Architectures Management provides more detail about the various levels of patterns and how to organize them and bookkeep them into pattern catalogs to facilitate reuse. Business Solutions Design Patterns Business solutions are strategies/systems created to solve specific challenges in a business. They aim to make operations more efficient, improve decision-making, and contribute to overall success. Creating business solutions is a multifaceted and intricate process, demanding knowledge in different technological domains and the relevant business sector. A crucial step in this procedure is outlining the solution’s architecture, serving as a master blueprint, and guiding the entire design a",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 3
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p66-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 66,
+        "text": "Architecture Purpose Components Business architecture Defines the organization’s business strategy, goals, processes, and functions Business models, processes, capabilities, and organizational structure Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata Application architecture Designs and organizes software applications Application portfolio, application integration, and interface design Technology architecture Specifies the hardware, software, and technology infrastructure Servers, networks, databases, cloud services, security protocols Security architecture Ensures the protection of information assets, systems, and networks Security policies, access controls, and encryption mechanisms Integra",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 43.92610000013519,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Business architecture va information architecture khac nhau ve muc dich nhu the nao?",
+    "strategy": "hybrid-rrf",
+    "results": [
+      {
+        "id": "openstax_cs-p66-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 66,
+        "text": "Architecture Purpose Components Business architecture Defines the organization’s business strategy, goals, processes, and functions Business models, processes, capabilities, and organizational structure Information architecture Manages data and information assets Data models, information flow diagrams, data governance, data standards, and metadata Application architecture Designs and organizes software applications Application portfolio, application integration, and interface design Technology architecture Specifies the hardware, software, and technology infrastructure Servers, networks, databases, cloud services, security protocols Security architecture Ensures the protection of information assets, systems, and networks Security policies, access controls, and encryption mechanisms Integra",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid-rrf",
+        "hit": true
+      },
+      {
+        "id": "openstax_cs-p75-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 75,
+        "text": "THINK IT THROUGH Enterprise Business Architecture What is the mechanism that prompts the creation of organization, location, and process domains to describe an (enterprise) business architecture? How does decomposition help describe (enterprise) technology architectures? Hint: The organization domain focuses on the structure, roles, responsibilities, and relationships within the enterprise. The location domain deals with the physical or virtual places where business activities take place. The process domain delves into the business processes that drive the value chain and operational activities. The process involves dividing a system or architecture into smaller, more discrete elements, which aids in analysis, understanding, and effective communication. Technology architectures in enterpri",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.030834914611005692,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      },
+      {
+        "id": "openstax_cs-p74-paragraph-0",
+        "source_id": "openstax_cs",
+        "source": "C:\\Users\\Admin\\OneDrive\\Desktop\\pro\\K5-L3A-DAY07-PhanVanCuong-2A202603669-RetrievalContext\\data\\day6\\introduction_to_computer_science.pdf",
+        "page": 74,
+        "text": "Figure 2.16 illustrates a conceptual application architecture model of the sample trading business model that was introduced earlier in this section. The goal of a conceptual application architecture is to demonstrate how members of the organization interact with the application architecture from different locations when invoking business processes. This example illustrates three distinct offices accommodating a diverse range of users, including management, trading, IT, and others. Figure 2.16 A conceptual trading application architecture moves through various levels, including users, functions, enterprise services, and third-party systems. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Figure 2.17 takes the conceptual trading application architecture a b",
+        "metadata": {
+          "text_extraction": "ok",
+          "section": "Architecting Solutions with Adaptive Design Reuse in Mind",
+          "chunking_strategy": "paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.030309988518943745,
+        "strategy": "hybrid-rrf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "elapsed_ms": 27.179800000340038,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  }
+]

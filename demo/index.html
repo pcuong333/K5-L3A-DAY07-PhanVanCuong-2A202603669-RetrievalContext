@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day 7 — Agentic RAG Demo</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --ink: #172033;
+      --muted: #64708a;
+      --line: #e4e9f2;
+      --blue: #4263eb;
+      --cyan: #0ca6c8;
+      --green: #159570;
+      --orange: #e68a25;
+      --red: #d84c62;
+      --shadow: 0 16px 40px rgba(31, 45, 80, .08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    .wrap { max-width: 1180px; margin: auto; padding: 28px 20px 60px; }
+    .hero {
+      padding: 42px;
+      color: white;
+      border-radius: 28px;
+      background:
+        radial-gradient(circle at 85% 20%, rgba(84, 214, 255, .35), transparent 28%),
+        linear-gradient(135deg, #172b68, #4263eb 60%, #0ca6c8);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: 12px; opacity: .78; font-weight: 700; }
+    h1 { margin: 10px 0 10px; font-size: clamp(32px, 5vw, 58px); line-height: 1.05; }
+    h2 { margin: 0 0 18px; font-size: 25px; }
+    h3 { margin: 0 0 6px; font-size: 18px; }
+    p { margin: 0 0 12px; }
+    .hero p { max-width: 720px; color: #e7efff; font-size: 18px; }
+    .tag-row, .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    .tag, .pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700;
+    }
+    .tag { background: rgba(255,255,255,.16); color: #fff; }
+    .pill { background: #edf2ff; color: #3654bd; }
+    .grid { display: grid; gap: 18px; }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .section { margin-top: 30px; }
+    .panel, .metric, .method, .trace {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow);
+    }
+    .panel { padding: 24px; }
+    .metric { padding: 20px; }
+    .metric strong { display: block; font-size: 32px; line-height: 1.1; color: var(--blue); }
+    .metric span { color: var(--muted); font-size: 13px; }
+    .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; align-items: stretch; }
+    .flow-step {
+      position: relative; padding: 18px 14px; text-align: center;
+      border: 1px solid #dce5ff; border-radius: 16px; background: #f8faff;
+    }
+    .flow-step:not(:last-child)::after {
+      content: "→"; position: absolute; right: -17px; top: 33px; z-index: 1;
+      color: var(--blue); font-size: 22px; font-weight: 800;
+    }
+    .number {
+      width: 30px; height: 30px; display: grid; place-items: center; margin: 0 auto 8px;
+      border-radius: 50%; color: white; background: var(--blue); font-weight: 800;
+    }
+    .method { padding: 22px; border-top: 4px solid var(--blue); }
+    .method:nth-child(2) { border-top-color: var(--cyan); }
+    .method:nth-child(3) { border-top-color: var(--green); }
+    .method p, .muted { color: var(--muted); }
+    .bar-row { display: grid; grid-template-columns: 90px 1fr 54px; gap: 10px; align-items: center; margin: 13px 0; font-size: 14px; }
+    .bar { height: 10px; overflow: hidden; border-radius: 99px; background: #edf0f6; }
+    .bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--blue), var(--cyan)); }
+    .score-table { width: 100%; border-collapse: collapse; }
+    .score-table th, .score-table td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+    .score-table th { color: var(--muted); font-size: 13px; }
+    .score-table td:not(:first-child) { font-weight: 700; }
+    .trace { overflow: hidden; }
+    .trace-head { display: flex; justify-content: space-between; gap: 12px; padding: 16px 18px; background: #f8faff; border-bottom: 1px solid var(--line); }
+    .trace-body { padding: 18px; }
+    .trace-body code { display: block; padding: 14px; overflow-x: auto; border-radius: 12px; background: #182238; color: #dbe7ff; font: 13px/1.6 Consolas, monospace; }
+    .ok { color: var(--green); } .warn { color: var(--orange); } .bad { color: var(--red); }
+    .footer { margin-top: 35px; text-align: center; color: var(--muted); font-size: 13px; }
+    button {
+      border: 0; cursor: pointer; border-radius: 10px; padding: 10px 14px;
+      background: var(--blue); color: white; font-weight: 700;
+    }
+    button.secondary { background: #eaf0ff; color: #3654bd; }
+    .hidden { display: none; }
+    @media (max-width: 850px) {
+      .grid-4, .grid-3 { grid-template-columns: 1fr 1fr; }
+      .flow { grid-template-columns: 1fr; }
+      .flow-step:not(:last-child)::after { content: "↓"; right: 50%; top: auto; bottom: -25px; }
+    }
+    @media (max-width: 560px) {
+      .hero { padding: 28px 22px; } .grid-4, .grid-3 { grid-template-columns: 1fr; }
+      .score-table { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">K5-L3A · Day 07</div>
+      <h1>Agentic RAG</h1>
+      <p>Agent tìm bằng chứng trong tài liệu Introduction to Computer Science, trả lời có citation và biết từ chối khi corpus không đủ thông tin.</p>
+      <div class="tag-row">
+        <span class="tag">DeepSeek chat</span>
+        <span class="tag">Hybrid retrieval</span>
+        <span class="tag">PostgreSQL + pgvector</span>
+        <span class="tag">384-dimensional embedding</span>
+      </div>
+    </header>
+
+    <section class="section grid grid-4">
+      <div class="metric"><strong>206</strong><span>chunks đã index</span></div>
+      <div class="metric"><strong>24</strong><span>câu benchmark</span></div>
+      <div class="metric"><strong>3</strong><span>phương pháp retrieval</span></div>
+      <div class="metric"><strong>15/15</strong><span>unit tests pass</span></div>
+    </section>
+
+    <section class="section panel">
+      <h2>Pipeline hệ thống</h2>
+      <div class="flow">
+        <div class="flow-step"><div class="number">1</div><b>Câu hỏi</b><br><span class="muted">User query</span></div>
+        <div class="flow-step"><div class="number">2</div><b>Agent</b><br><span class="muted">Search / answer</span></div>
+        <div class="flow-step"><div class="number">3</div><b>Retrieval</b><br><span class="muted">TF-IDF + dense</span></div>
+        <div class="flow-step"><div class="number">4</div><b>Context</b><br><span class="muted">Budget 2000</span></div>
+        <div class="flow-step"><div class="number">5</div><b>Answer</b><br><span class="muted">Citation / abstain</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Các phương pháp retrieval</h2>
+      <div class="grid grid-3">
+        <article class="method">
+          <span class="pill">01 · Lexical</span>
+          <h3>TF-IDF baseline</h3>
+          <p>So khớp từ khóa và xếp hạng theo độ tương đồng vector TF-IDF.</p>
+          <b>Hit@3: 7/15</b>
+        </article>
+        <article class="method">
+          <span class="pill">02 · Semantic</span>
+          <h3>Dense retrieval</h3>
+          <p>Embed query bằng model multilingual 384 chiều và tìm cosine similarity.</p>
+          <b>Hit@3: 2/15</b>
+        </article>
+        <article class="method">
+          <span class="pill">03 · Selected</span>
+          <h3>Hybrid RRF</h3>
+          <p>Kết hợp top-10 TF-IDF và top-10 dense bằng Reciprocal Rank Fusion.</p>
+          <b class="ok">Hit@3: 10/15</b>
+        </article>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>So sánh retrieval trên dev</h2>
+      <div class="bar-row"><span>TF-IDF</span><div class="bar"><i style="width: 46.7%"></i></div><b>7/15</b></div>
+      <div class="bar-row"><span>Dense</span><div class="bar"><i style="width: 13.3%"></i></div><b>2/15</b></div>
+      <div class="bar-row"><span>Hybrid</span><div class="bar"><i style="width: 66.7%"></i></div><b>10/15</b></div>
+      <p class="muted">Metric: Evidence Hit@3 · cùng corpus, cùng bộ dev, cùng cutoff.</p>
+    </section>
+
+    <section class="section panel">
+      <h2>Agent evaluation</h2>
+      <table class="score-table">
+        <thead><tr><th>Cấu hình</th><th>Grounded 2/15</th><th>Citation</th><th>Abstention đúng</th><th>Từ chối nhầm</th></tr></thead>
+        <tbody>
+          <tr><td>Budget 1200 · dev</td><td>11/15</td><td>11/11</td><td>2/2</td><td>4/15</td></tr>
+          <tr><td><b>Budget 2000 · dev</b></td><td><b class="ok">12/15</b></td><td><b>17/17</b></td><td><b>2/2</b></td><td><b class="ok">3/15</b></td></tr>
+          <tr><td>Budget 2000 · test</td><td>3/5</td><td>4/4</td><td>2/2</td><td>2/5</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Trace minh họa</h2>
+      <div class="trace">
+        <div class="trace-head"><b>q16 · Human-centered computing</b><span class="pill">answered</span></div>
+        <div class="trace-body">
+          <p><b>Question:</b> Human-centered computing nhấn mạnh điều gì khi thiết kế giải pháp?</p>
+          <code>search("human-centered computing design solution")
+→ openstax_cs-p42-paragraph-0
+→ "human-centered computing emphasizes people rather than technologies..."
+→ answer [openstax_cs-p42-paragraph-0]</code>
+          <p class="ok" style="margin-top: 12px"><b>Grounded:</b> Citation nằm trong context và hỗ trợ trực tiếp câu trả lời.</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="secondary" onclick="toggleNote()">Hiện ghi chú thuyết trình</button>
+      </div>
+      <div id="note" class="panel hidden" style="margin-top: 12px">
+        <b>Thông điệp chính:</b> Dense retrieval một mình chưa tốt trên corpus này. Hybrid tận dụng ưu điểm của lexical và semantic retrieval, đạt Evidence Hit@3 cao nhất trên dev. Agent vẫn cần context budget đủ lớn để không bỏ mất evidence.
+      </div>
+    </section>
+
+    <section class="section grid grid-3">
+      <div class="panel"><span class="pill">Data</span><h3>OpenStax CS</h3><p class="muted">Trang 30–80 · 51 trang có text · OpenStax license.</p></div>
+      <div class="panel"><span class="pill">Embedding</span><h3>MiniLM multilingual</h3><p class="muted">sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 · 384D.</p></div>
+      <div class="panel"><span class="pill">Safety</span><h3>Abstention</h3><p class="muted">Không đủ evidence thì không bịa câu trả lời.</p></div>
+    </section>
+
+    <footer class="footer">Day 7 · Retrieval Context Engineering · 2A202603669 Phan Van Cuong</footer>
+  </main>
+  <script>
+    function toggleNote() {
+      document.getElementById("note").classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>

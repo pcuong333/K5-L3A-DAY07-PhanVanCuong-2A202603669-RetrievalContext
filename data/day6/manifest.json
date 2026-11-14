@@ -1,0 +1,10 @@
+{
+  "source_id": "openstax_cs",
+  "title": "Introduction to Computer Science",
+  "source_path_or_url": "https://openstax.org/details/books/introduction-computer-science",
+  "license_or_permission": "OpenStax license",
+  "accessed_at": "2026-11-13",
+  "selected_pages": "30-80",
+  "characters": 145318,
+  "notes": "Số ký tự sau khi chuẩn hóa Unicode và khoảng trắng bằng ingestion.py."
+}

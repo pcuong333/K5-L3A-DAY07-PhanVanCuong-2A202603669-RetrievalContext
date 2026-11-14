@@ -1,0 +1,11 @@
+{
+  "strategy": "hybrid-rrf",
+  "split": "dev",
+  "n": 15,
+  "hit1": 7,
+  "hit3": 10,
+  "context_hit": 0,
+  "avg_context_chars": 120.53333333333333,
+  "median_ms": 36.15929999978107,
+  "service_cost_usd": 0
+}

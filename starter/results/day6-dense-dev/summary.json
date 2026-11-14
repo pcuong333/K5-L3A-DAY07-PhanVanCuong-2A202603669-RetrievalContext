@@ -1,0 +1,11 @@
+{
+  "strategy": "dense-day6-B",
+  "split": "dev",
+  "n": 15,
+  "hit1": 0,
+  "hit3": 2,
+  "context_hit": 0,
+  "avg_context_chars": 212.13333333333333,
+  "median_ms": 46.071499999925436,
+  "service_cost_usd": 0
+}

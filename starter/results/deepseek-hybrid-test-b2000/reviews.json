@@ -1,0 +1,51 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Cited context was read and supports the answer."
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Abstain on an answerable question."
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Cited context was read and supports the answer."
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Cited context was read and supports the answer."
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Abstain on an answerable question."
+  },
+  {
+    "query_id": "test-no-evidence-01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "The corpus lacks the requested evidence and the agent abstained."
+  },
+  {
+    "query_id": "test-no-evidence-02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "The corpus lacks the requested evidence and the agent abstained."
+  }
+]
